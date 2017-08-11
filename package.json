@@ -1,0 +1,42 @@
+{
+  "name": "drawerout",
+  "version": "1.0.0",
+  "description": "global install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && npm run server",
+    "server": "http-server dist -p 10086",
+    "build": "node build",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andypinet/drawerout.git"
+  },
+  "keywords": [
+    "drawerout"
+  ],
+  "author": "lbc19920615",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andypinet/drawerout/issues"
+  },
+  "homepage": "https://github.com/andypinet/drawerout#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "chalk": "^2.1.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "ora": "^1.3.0",
+    "postcss-loader": "^2.0.6",
+    "rimraf": "^2.6.1",
+    "style-ext-html-webpack-plugin": "^3.4.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.3"
+  },
+  "dependencies": {
+    "decouple": "^1.0.1"
+  }
+}
